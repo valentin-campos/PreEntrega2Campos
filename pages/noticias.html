@@ -4,63 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../Assets/Imagenes/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../CSS/style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Noticias</title>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="../Assets/Imagenes/escudo.png" alt="logo">
-        </div>
-        <div class="nombre-logo">
-            <h1>BELGRANO</h1>
-        </div>
-        <nav id="navheader">
+        <nav id="nav-header">
+            <div id="logo-header">
+                <img src="../Assets/Imagenes/escudo.png" alt="logo">
+            </div>
+            <div id="nombre-logo">
+                <h1>BELGRANO</h1>
+            </div>
             <ul id="menu">
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../pages/noticias.html">Noticias</a></li>
                 <li><a href="../pages/fixture.html">Calendario</a></li>
                 <li><a href="../pages/historia.html">Historia</a></li>
-                <li><a href="../pages/contacto.html">Contactos</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <div id="Titulo">
-            <h1>Ultimas noticias</h1>
+    <main class="mainNoticias">
+        <div class="tituloNoticias">
+            <h1>Ultimas Noticias</h1>
         </div>
-        <section id="noticia1">
-            <h2>Titulo de la primera noticia</h2>
-            <p> Lorem ipsum dolor sit amet consectetur.</p>
+        <section class="noticia1">
+            <h2>Empate contra Colon</h2>
+            <p>El partido entre Colon y Belgrano terminó en un empate sin goles. Ambos equipos lucharon intensamente durante los 90 minutos, pero no lograron concretar ninguna oportunidad en gol. </p>
         </section>
-        <section id="noticia2">
-            <h3>Titulo de la segunda noticia</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <section class="noticia2">
+            <h3>Otra victoria de la reserva</h3>
+            <p>En un emocionante encuentro entre la reserva de Belgrano y la reserva de Estudiantes, el equipo de Belgrano mostró un juego dominante y contundente que los llevó a una impresionante victoria con un marcador final de 6-0.</p>
         </section>
-        <section id="noticia3">
-            <h4>Titulo de la tercera noticia</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <section class="noticia3">
+            <h4>Belgrano, en busqueda de refuerzos</h4>
+            <p>
+                En las noticias más recientes, el Club Atlético Belgrano se encuentra en negociaciones para cerrar la incorporación de dos jugadores: Pablo Chavarría y Matías Marín. El club está trabajando arduamente para llegar a un acuerdo con ambos futbolistas y reforzar su plantilla de cara a futuras competiciones.</p>
         </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <div class="logo1">
+        <div class="footer-contenido">
+            <div class="logo">
                 <img src="../Assets/Imagenes/escudo.png" alt="escudo">
             </div>
             <nav class="footer-nav">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Noticias</a></li>
-                    <li><a href="#">Calendario</a></li>
-                    <li><a href="">Historia</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/noticias.html">Noticias</a></li>
+                    <li><a href="../pages/fixture.html">Calendario</a></li>
+                    <li><a href="../pages/historia.html">Historia</a></li>
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
                 </ul>
             </nav>
+    </div>
         </div>
-        <p class="footer-text">© 2023 Club Atletico Belgrano. Todos los derechos son reservados.</p>
-        
+            <p class="footer-text">© 2023 Club Atletico Belgrano. Todos los derechos son reservados.</p>
+        </div>
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
